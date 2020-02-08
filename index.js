@@ -24,7 +24,7 @@ app.get("/", (req, res, next) => {
 app.post("/image-upload", (req, res) => {
     // collected image from a user
     const data = {
-      image: request.body.image,
+      image: req.body.image,
     }
 
     // upload image here
